@@ -4,15 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CoinbaseClientLite
+namespace CoinbaseClientLite.Models
 {
-    internal class Time
+    public class Time
     {
         public string Iso { get; set; }
         public int Epoch { get; set; }
     }
 
-    internal class TimeResponse
+    public class TimeResponse
     {
         public Time Data { get; set; }
     }

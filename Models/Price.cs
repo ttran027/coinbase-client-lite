@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace CoinbaseClientLite
+namespace CoinbaseClientLite.Models
 {
     public class Price : BasePrice
     {       
@@ -13,7 +9,7 @@ namespace CoinbaseClientLite
         public DateTime TimeStamp { get; set; }
     }
 
-    internal class PriceResponse
+    public class PriceResponse
     {
         public BasePrice Data { get; set; }
 
